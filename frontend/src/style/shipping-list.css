@@ -1,0 +1,191 @@
+
+body{
+    overflow-x: hidden;
+    padding-top: 5px;
+
+    background: #649173; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #649173 , #DBD5A4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #649173 , #DBD5A4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* All profile images  */
+.profile_img
+{
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.manager-ctr
+{
+    position: relative;
+    background: #00d2ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, #f8cdda , #673AB7); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, #f8cdda , #673AB7 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 280px;
+    margin-top:10px;
+
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+
+.shipping-ctr
+
+{
+    position: relative;
+    background: #00d2ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 280px;
+    margin-top:10px;
+
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+
+.course-ctr
+{
+    position: relative;
+    background: #24C6DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, #24C6DC, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, #24C6DC, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 280px;
+    margin-top:10px;
+
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.manager-ctr>.row>img,
+.shipping-ctr>.row>img
+{
+    padding: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.manager-ctr>.row>button,
+.shipping-ctr>.row>button,
+.course-ctr>.row>button
+{
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 20px;
+
+}
+.course-ctr>.row>button
+{
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.manager-ctr>.manager-details>label,
+.shipping-ctr>.shipping-details>label,
+.course-ctr>.course-details>label
+{
+    padding: auto;
+    margin: auto;
+    margin-left:10px;
+    text-align: left;
+}
+
+.create-manager,
+.create-shipping
+{
+
+    position: fixed;
+    background: #E6DADA; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E6DADA , #DDEFBB); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E6DADA , #DDEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: auto;
+    margin-top:70px;
+
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.edit-existing-manager>button
+{
+    padding: 5px;
+    margin:10px;
+    margin-top: 15px;
+}
+.edit-existing-shipping>div>button{
+    padding: 5px;
+    margin:10px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.create-course
+{
+
+    position: fixed;
+    background: #E6DADA; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E6DADA , #DDEFBB); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E6DADA , #DDEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: auto;
+    margin-top:70px;
+
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.edit-existing-manager,
+.edit-existing-course,
+.edit-existing-shipping
+{
+    background: #8e9eab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #8e9eab, #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #8e9eab, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: fixed;
+    height: auto;
+    margin-top:70px;
+
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.delete-existing-manager,
+.delete-existing-course,
+.delete-existing-shipping
+{
+
+    background: #FF512F; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right top, #F09819, #FF512F); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right top, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: fixed;
+    height: auto;
+    margin-top:70px;
+
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.create-course:hover,
+.create-manager:hover,
+.create-shipping:hover,
+.edit-existing-manager:hover,
+.edit-existing-course:hover,
+.edit-existing-shipping:hover,
+.delete-existing-manager:hover,
+.delete-existing-course:hover,
+.delete-existing-shipping:hover,
+.manager-ctr:hover,
+.shipping-ctr:hover,
+.course-ctr:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.5);  /* shadow for hovered card */
+}
